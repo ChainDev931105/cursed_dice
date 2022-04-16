@@ -1,0 +1,21 @@
+body {
+    background-color: #000000;
+    background-image: url('../assets/desktop_background.png');
+}
+
+@media (-webkit-device-pixel-ratio: 1.25) {
+    body {
+        zoom: 0.8;
+        -moz-transform: scale(0.9); 
+        -moz-transform-origin: 0 0;
+    
+    }
+}
+
+@media (-webkit-device-pixel-ratio: 1.50) {
+    body {
+        zoom: 0.7;
+        -moz-transform: scale(0.9); 
+        -moz-transform-origin: 0 0;
+    }
+}
